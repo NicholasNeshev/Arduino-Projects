@@ -163,7 +163,7 @@ void loop() {
   clearLight(); // clears all pixels after displaying player
   
 
-  
+  // handles laser
   if(buttonValue <= 750 && buttonValue >= 730) // checks to see if the spare button is pressed
   {
     if(lazerCollumn == -1 && lazerRow == -1) // checks to see if lazer variables are blank
